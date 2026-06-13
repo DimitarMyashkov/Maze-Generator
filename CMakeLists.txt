@@ -3,4 +3,5 @@ project(Maze_Generator C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Maze_Generator main.c)
+add_executable(main.c
+        MazeGenerator.c)
