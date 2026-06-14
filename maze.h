@@ -2,9 +2,9 @@
 #define MAZE_H
  
 #define CW 11          /* logical columns */
-#define CH 4           /* logical rows    */
+#define CH 11          /* logical rows    */
 #define GW (CW*2+1)    /* full grid width  (23) */
-#define GH (CH*2+1)    /* full grid height ( 9) */
+#define GH (CH*2+1)    /* full grid height (23) */
 /* Cell states stored in the grid that main.c and the solvers share
  The visualizer colors each state differently. I hope its the most optimal logic ;)*/
 #define STATE_WALL      1   // black – wall//

@@ -27,7 +27,7 @@ void VisualizerStep(void) {
 
 static COLORREF StateColor(int state) {
     switch (state) {
-        case STATE_OPEN: return RGB(10, 10, 10);
+        case STATE_OPEN: return RGB(10, 10, 10);        
         case STATE_WALL: return RGB(50, 50, 50);
         case STATE_VISITED: return RGB(30, 100, 220);
         case STATE_HEAD: return RGB(255, 220, 0);
