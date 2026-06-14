@@ -14,4 +14,4 @@ $(TARGET): $(SRCS) maze.h
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS) $(LDFLAGS)
 
 clean:
-	del /Q $(TARGET) 2>nul || rm -f $(TARGET)
+	del /Q $(TARGET) *.o 2>nul || rm -f $(TARGET) *.o
